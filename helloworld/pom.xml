@@ -85,7 +85,7 @@
        <extensions>true</extensions>
         <configuration>
             <serverId>NXRMOSS3.18.1-01</serverId>
-            <nexusUrl>http://jenkinsos:8081/</nexusUrl>
+            <nexusUrl>http://jenkinsos:8081</nexusUrl>
         </configuration>
       </plugin>
      </plugins>
