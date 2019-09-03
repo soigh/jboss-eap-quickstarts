@@ -68,5 +68,28 @@
         </dependency>
 
     </dependencies>
+    
+    <distributionManagement>
+      <snapshotRepository>
+        <id>NXRMOSS3.18.1-01</id>
+        <url>http://jenkinsos:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+    
+    <build>
+     <plugins>  
+      <plugin>
+       <groupId>org.sonatype.plugins</groupId>
+       <artifactId>nexus-staging-maven-plugin</artifactId>
+       <version>1.6.3</version>
+       <extensions>true</extensions>
+        <configuration>
+            <serverId>nexus</serverId>
+            <nexusUrl>http://jenkinsos:8081/</nexusUrl>
+        </configuration>
+      </plugin>
+     </plugins>
+    </build>
+
 
 </project>
