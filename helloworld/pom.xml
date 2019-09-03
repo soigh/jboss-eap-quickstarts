@@ -84,7 +84,7 @@
         <version>1.6.3</version>
         <extensions>true</extensions>
         <configuration>
-            <serverId>nexus</serverId>
+            <serverId>NXRMOSS3.18.1-01</serverId>
             <nexusUrl>http://jenkinsos:8081/</nexusUrl>
         </configuration>
       </plugin>
