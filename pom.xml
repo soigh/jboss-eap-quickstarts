@@ -239,7 +239,6 @@
             <nexusUrl>http://jenkinsos:8081/</nexusUrl>
         </configuration>
       </plugin>
-    </plugins>
             <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
