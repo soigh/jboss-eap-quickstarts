@@ -83,6 +83,10 @@
        <artifactId>nexus-staging-maven-plugin</artifactId>
        <version>1.6.3</version>
        <extensions>true</extensions>
+       <configuration>
+        <serverId>NXRMOSS3.18.1-01</serverId>
+        <nexusUrl>http://jenkinsos:8081/</nexusUrl>
+       </configuration>
       </plugin>
      </plugins>
     </build>
